@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dibya Sah Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <header>
+    <header class="header-container">
         <img src="images/logo.png" alt="Dibya Sah Logo" width="150" height="100">
 
         <h1>Hi, I'm Dibya Sah</h1>
-
         <nav>
-            <ul>
+            <ul> 
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -24,17 +24,17 @@
             </ul>
         </nav>
 
-        <form>
+        <form class="search-bar">
             <label for="search">Search</label>
             <input type="search" id="search" name="search">
             <button type="submit">Search</button>
         </form>
     </header>
 
-
+ 
     <main>
 
-        <section id="home">
+        <section id="home" class="home-container">
             <h2>Welcome to My Portfolio</h2>
 
             <p>
@@ -45,26 +45,26 @@
         </section>
 
 
-        <section id="about">
+        <section id="about" class="about-container">
             <h2>About Me</h2>
 
             <img src="images/dvya.PNG" alt="Profile photo of Dibya Sah" width="200" height="250">
-
-            <p>
-                Hi, I'm Dibya Sah, a BIT student interested in programming,
-                web development and software systems. I enjoy understanding
-                how a system works and then trying to build it myself.
-            </p>
-
-            <p>
+             <div class="about-text">
+                <p>
+                    Hi, I'm Dibya Sah, a BIT student interested in programming,
+                    web development and software systems. I enjoy understanding
+                    how a system works and then trying to build it myself.
+                </p>
+                <p>
                 I learn best when I can apply what I study to a project. Working
                 on different assignments and software projects has helped me
                 explore technology and improve my skills through practice.
             </p>
+            </div>
         </section>
 
 
-        <section id="skills">
+        <section id="skills" class="skills-container">
             <h2>Technical Skills</h2>
 
             <dl>
@@ -94,7 +94,7 @@
         </section>
 
 
-        <section id="projects">
+        <section id="projects" class="projects-container">
             <h2>Projects</h2>
 
             <article>
@@ -126,7 +126,7 @@
         </section>   
 
 
-        <section id="contact">
+        <section id="contact" class="contact-container">
             <h2>Contact Me</h2>
 
             <p>
@@ -167,8 +167,7 @@
             <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
                 <img src="images/whats.png" alt="WhatsApp" width="30" height="30">
             </a>
-            <a href="https://instagram.com/" target="_blank">
-                <img src="images/insta.png" alt="Instagram" width="30" height="30">
+            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">                <img src="images/insta.png" alt="Instagram" width="30" height="30">
             </a>
         </section>
 
