@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dibya Sah Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/slider.js" defer></script>
 </head>
 
 <body>
@@ -20,6 +21,7 @@
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#slider">Slider</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -126,6 +128,28 @@
         </section>   
 
 
+        <section id="slider" class="slider-container">
+            <h2>Image Slider</h2>
+
+            <div class="slider" data-slider role="region" aria-label="Image slider">
+                <div class="slider-viewport">
+                    <div class="slider-track">
+                        <img class="slide" src="images/dr.jpg" alt="Slider image 1">
+                        <img class="slide" src="images/h.jpg" alt="Slider image 2">
+                        <img class="slide" src="images/c.jpg" alt="Slider image 3">
+                        <img class="slide" src="images/ct.png" alt="Slider image 4">
+                        <img class="slide" src="images/eo.jpg" alt="Slider image 5">
+                    </div>
+
+                    <button class="prev" type="button" aria-label="Previous image">&lt;</button>
+                    <button class="next" type="button" aria-label="Next image">&gt;</button>
+                </div>
+
+                <div class="slider-dots" role="group" aria-label="Choose image"></div>
+            </div>
+        </section>
+
+
         <section id="contact" class="contact-container">
             <h2>Contact Me</h2>
 
@@ -167,7 +191,8 @@
             <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
                 <img src="images/whats.png" alt="WhatsApp" width="30" height="30">
             </a>
-            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">                <img src="images/insta.png" alt="Instagram" width="30" height="30">
+            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">                
+                <img src="images/insta.png" alt="Instagram" width="30" height="30">
             </a>
         </section>
 
